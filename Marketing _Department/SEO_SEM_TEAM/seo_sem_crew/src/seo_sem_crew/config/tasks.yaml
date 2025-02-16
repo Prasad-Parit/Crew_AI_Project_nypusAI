@@ -1,0 +1,127 @@
+keyword_research_task:
+  description: >
+    Conduct keyword research to identify high-potential keywords for content optimization 
+    for the website {website_name}. The research should focus on attracting {target_audience} 
+    and achieving the primary goal: {primary_goals}.
+  expected_output: >
+    - List of targeted keywords with search volume and competition.
+    - Task Status Update:
+      - Task Name: Keyword Research
+      - Status: COMPLETED/PENDING
+  agent: keyword_researcher
+
+competitor_analysis_task:
+  description: >
+    Conduct SEO analysis on {competitors} and identify opportunities for {website_name}.
+  expected_output: >
+    - Detailed report comparing competitor strategies with actionable insights.
+    - Task Status Update:
+      - Task Name: Competitor Analysis
+      - Status: COMPLETED/PENDING
+  agent: competitor_analyst 
+
+content_optimization_task:
+  description: >
+    Optimize website content on {website_name} for better search engine visibility.
+  expected_output: >
+    - Improved web pages with optimized titles, headers, and body text.
+    - Task Status Update:
+      - Task Name: Content Optimization
+      - Status: COMPLETED/PENDING
+  agent: content_optimizer
+
+backlink_analysis_task:
+  description: >
+    Analyze backlinks for {website_name} and suggest improvements by comparing 
+    against competitor backlinks from {competitors}.
+  expected_output: >
+    - Report on current backlinks with recommendations for new opportunities.
+    - Task Status Update:
+      - Task Name: Backlink Analysis
+      - Status: COMPLETED/PENDING
+  agent: backlink_analyst
+
+analytics_monitoring_task:
+  description: >
+    Monitor website performance using analytics tools and provide insights on visitor behavior 
+    and conversion trends for {website_name}.
+  expected_output: >
+    - Regular performance reports highlighting key metrics and insights.
+    - Task Status Update:
+      - Task Name: Analytics Monitoring
+      - Status: COMPLETED/PENDING
+  agent: analytics_specialist
+
+seo_reporting_task:
+  description: >
+    Generate comprehensive SEO reports tracking rankings, traffic, and conversion metrics 
+    for {website_name}.
+  expected_output: >
+    - Detailed SEO report highlighting key performance metrics.
+    - Task Status Update:
+      - Task Name: SEO Reporting
+      - Status: COMPLETED/PENDING
+  agent: seo_reporter
+
+meta_description_task:
+  description: >
+    Generate optimized meta descriptions and titles for web pages on {website_name}.
+  expected_output: >
+    - Set of optimized meta descriptions and titles for various pages.
+    - Task Status Update:
+      - Task Name: Meta Description
+      - Status: COMPLETED/PENDING
+  agent: meta_description_creator
+
+ad_copy_task:
+  description: >
+    Create high-performing ad copy for Google Ads campaigns, aligned with {ad_budget} 
+    for {website_name}.
+  expected_output: >
+    - Collection of ad copies designed for maximum engagement.
+    - Task Status Update:
+      - Task Name: Ad Copy Creation
+      - Status: COMPLETED/PENDING
+  agent: ad_copywriter
+
+sem_campaign_management_task:
+  description: >
+    Monitor and adjust paid search campaigns to maximize ROI while staying within 
+    {ad_budget} for {website_name}.
+  expected_output: >
+    - Adjusted campaign settings with performance improvements.
+    - Task Status Update:
+      - Task Name: SEM Campaign Management
+      - Status: COMPLETED/PENDING
+  agent: sem_campaign_manager
+
+seo_audit_task:
+  description: >
+    Conduct an SEO audit for {website_name} to identify areas for improvement.
+  expected_output: >
+    - Audit report highlighting issues and recommendations.
+    - Task Status Update:
+      - Task Name: SEO Audit
+      - Status: COMPLETED/PENDING
+  agent: seo_auditor
+
+internal_linking_task:
+  description: >
+    Suggest internal linking strategies to enhance SEO value for {website_name}.
+  expected_output: >
+    - Proposed internal linking structure for better navigation and authority.
+    - Task Status Update:
+      - Task Name: Internal Linking Strategy
+      - Status: COMPLETED/PENDING
+  agent: internal_link_strategist
+
+content_strategy_task:
+  description: >
+    Develop blog topics based on long-tail keywords relevant to {website_name} 
+    and {target_audience}.
+  expected_output: >
+    - List of potential blog topics optimized around identified keywords.
+    - Task Status Update:
+      - Task Name: Content Strategy
+      - Status: COMPLETED/PENDING
+  agent: content_strategist
